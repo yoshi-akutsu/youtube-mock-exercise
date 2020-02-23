@@ -44,8 +44,8 @@ header > * {
 
 main {
     background-color: #fafafa;
-    width: 80%;
-    display: inline;
+    width: 70%;
+    display: inline-block;
     float: left;
 }
 iframe {
@@ -88,5 +88,21 @@ iframe {
 
 /* Aside styles */
 aside {
-    display: inline;
+    width: 30%;
+    display: inline-block;
+    float: right;
+}
+.thumb {
+    height: 5rem;
+    padding: .5rem;
+}
+.thumb > img {
+    width: 8rem;
+    float: left;
+}
+.thumb-meta {
+    display: inline-block;
+}
+.thumb-meta > * {
+    margin: .2rem;
 }
