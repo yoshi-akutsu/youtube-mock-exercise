@@ -11,6 +11,7 @@ header {
     height: 3em;
     width: 100%;
     text-align: center;
+    position: fixed;
 }
 header > * {
     display: inline-block;
@@ -43,10 +44,12 @@ header > * {
 /* Main styles */
 
 main {
+
     background-color: #fafafa;
     width: 70%;
     display: inline-block;
     float: left;
+    margin-top: 3em;
 }
 iframe {
     padding: 2rem;
@@ -84,17 +87,47 @@ iframe {
     color: #fff;
     padding: .5em;
 }
-
+/* Comments styles */
+.comments {
+    padding: 1rem;
+}
+.comments > span {
+    padding-right: 2rem;
+}
+.comments > div {
+    padding-top: 1rem;
+}
+.comments > div > i {
+    float: left;
+    padding-right: 1rem;
+}
+#new-comment {
+    text-decoration: underline;
+    color: #696969;
+}
+.comment {
+    margin: .8rem 0;
+}
+.comment > div {
+    display: inline-block;
+}
+.comment > div > * {
+    margin: .2rem 0;
+}
+.comment > div > p > i {
+    margin: 0 1rem;
+}
 
 /* Aside styles */
 aside {
     width: 30%;
     display: inline-block;
     float: right;
+    margin-top: 3em;
 }
 .thumb {
     height: 5rem;
-    padding: .5rem;
+    padding: .4rem;
 }
 .thumb > img {
     width: 8rem;
