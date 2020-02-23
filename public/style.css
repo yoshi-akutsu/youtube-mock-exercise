@@ -1,0 +1,37 @@
+html, body {
+    font-family: "Roboto", arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    height: 3em;
+    width: 100%;
+    text-align: center;
+}
+header > * {
+    display: inline-block;
+    height: 90%;
+}
+.nav {
+    float: left;
+}
+.nav > img {
+    height: 35%;
+}
+.nav > i {
+    padding: 1rem;
+}
+.utils {
+    float: right;
+}
+.utils > i {
+    padding: 1rem;
+}
+.search-bar {
+    width: 50%;
+}
+.search-bar > input {
+    margin: .5rem 0;
+    height: 50%;
+    width: 80%;
+}
