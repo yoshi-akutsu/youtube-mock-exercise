@@ -1,9 +1,13 @@
-html, body {
+body {
     font-family: "Roboto", arial, sans-serif;
+    background-color: #fafafa;
+    height: 100%;
+    margin: 0;
 }
 
 /* Header Styles */
 header {
+    background-color: #fff;
     height: 3em;
     width: 100%;
     text-align: center;
@@ -34,4 +38,55 @@ header > * {
     margin: .5rem 0;
     height: 50%;
     width: 80%;
+}
+
+/* Main styles */
+
+main {
+    background-color: #fafafa;
+    width: 80%;
+    display: inline;
+    float: left;
+}
+iframe {
+    padding: 2rem;
+    width: 90%;
+}
+.details {
+    padding: 1rem;
+}
+.details > h3 {
+    margin: 0;
+}
+.details > p {
+    display: inline-block;
+    margin-top: 1rem;
+}
+.details > div {
+    padding: 0;
+}
+.channel {
+    margin-bottom: 1rem;
+}
+.channel > i {
+    float: left;
+    height: 2rem;
+}
+.channel > div {
+    display: inline-block;
+}
+.channel > div > * {
+    margin: 0;
+}
+.channel > button {
+    float: right;
+    background-color: #c4302b;
+    color: #fff;
+    padding: .5em;
+}
+
+
+/* Aside styles */
+aside {
+    display: inline;
 }
